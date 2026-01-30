@@ -19,7 +19,7 @@ number:
     id: stop_temperature
     name: "Stop temperature"
     max_value: 99999
-    initial_value: 50
+    initial_value: 65
     min_value: -273
     step: 1
     optimistic: True
@@ -31,7 +31,7 @@ number:
     id: restart_temperature
     name: "Restart temperature"
     max_value: 99999
-    initial_value: 40
+    initial_value: 64
     min_value: -273 
     step: 1
     optimistic: True
