@@ -47,6 +47,7 @@ number:
     max_value: 720 #12 hours max
     step: 5
     mode: box
+    initial_value: 5
   - platform: template
     name: "${scheduler_unique_id} Scheduler Begin Minute"
     id: "${scheduler_unique_id}_scheduler_begin_min"
